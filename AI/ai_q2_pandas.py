@@ -55,7 +55,7 @@ print(age_filter)
 multi_filter=df[(df.Age > 18) & (df.Avg_Grade > 85)] #Filters the dataset of students based on age and grade
 print(multi_filter)
 
-#Question 2.3
+#Question 2.5
 
 group=df.groupby('Age')
 print(group['Avg_Grade'].mean())
